@@ -1,2 +1,7 @@
-ruby-base
-=========
+# Ruby base
+
+## Install
+
+```bash
+bin/bootstrap
+```
