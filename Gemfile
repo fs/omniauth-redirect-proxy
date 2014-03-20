@@ -1,3 +1,4 @@
-source 'https://rubygems.com'
+source 'https://rubygems.org'
 
 ruby '2.1.0'
+
