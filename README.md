@@ -8,7 +8,7 @@ bin/bootstrap
 
 ## Quality tools
 
-* `bin/qualityy` based on [RuboCop](https://github.com/bbatsov/rubocop)
+* `bin/quality` based on [RuboCop](https://github.com/bbatsov/rubocop)
 * `.rubocop.yml` describes active checks
 
 ## Develop
