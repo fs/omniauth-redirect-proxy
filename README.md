@@ -6,10 +6,11 @@
 bin/bootstrap
 ```
 
+## Quality tools
+
+* `bin/qualityy` based on [RuboCop](https://github.com/bbatsov/rubocop)
+* `.rubocop.yml` describes active checks
+
 ## Develop
 
-Make sure your code follows [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
-
-```bash
-bin/quality
-```
+`bin/build` checks your specs and runs quality tools
