@@ -2,6 +2,7 @@ AllCops:
   RunRailsCops: true
   Exclude:
     - bin/**
+    - .bundle/**
 
 Documentation:
   Description: 'Document classes and non-namespace modules.'
