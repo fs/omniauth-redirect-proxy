@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-bin/bootstrap
+bin/setup
 ```
 
 ## Quality tools
