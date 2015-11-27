@@ -3,3 +3,5 @@
 set -e
 
 bin/rubocop
+bin/bundle-audit update
+bin/bundle-audit
