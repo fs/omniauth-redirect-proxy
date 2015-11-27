@@ -1,8 +1,10 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-ruby '2.2.3'
+ruby "2.2.3"
 
 group :development do
-  gem 'rubocop'
-  gem 'rspec'
+  gem "bundler-audit", require: false
+  gem "rspec"
+  gem "rubocop"
+  gem "rubocop-rspec", require: false
 end
