@@ -1,10 +1,12 @@
 require: rubocop-rspec
 
 AllCops:
-  RunRailsCops: false
   DisplayCopNames: true
   Exclude:
     - bin/**/*
+
+Rails:
+  Enabled: false
 
 Style/Documentation:
   Description: 'Document classes and non-namespace modules.'
