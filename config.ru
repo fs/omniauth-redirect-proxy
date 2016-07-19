@@ -1,5 +1,4 @@
 require "bundler/setup"
-require "byebug"
 require "uri"
 require "base64"
 
