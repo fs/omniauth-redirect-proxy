@@ -2,7 +2,7 @@ require "bundler/setup"
 require "uri"
 require "base64"
 
-class HelloWorld
+class RedirectProxy
   attr_reader :request, :base_url
 
   def call(env)
@@ -23,4 +23,4 @@ class HelloWorld
   end
 end
 
-run HelloWorld.new
+run RedirectProxy.new
