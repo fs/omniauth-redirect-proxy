@@ -12,7 +12,7 @@ GEM
     parser (2.3.1.2)
       ast (~> 2.2)
     powerpack (0.1.1)
-    rack (2.0.1)
+    rack (2.0.6)
     rainbow (2.1.0)
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
