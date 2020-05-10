@@ -27,7 +27,7 @@ So we will have following flow:
 
 ## OmniAuth setup
 
-In your app you need setup `Omniauth.config.full_host` to `http://oauth-redirect-proxy.herokuapp.com`
+In your app you need setup `OmniAuth.config.full_host` to `http://oauth-redirect-proxy.herokuapp.com`
 
 And encode `request.base_url` with `Base64.encode64` in to `state` parameter.
 
